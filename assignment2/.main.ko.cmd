@@ -1,0 +1,1 @@
+cmd_/home/akanksha/device_driver/assignment2/main.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/akanksha/device_driver/assignment2/main.ko /home/akanksha/device_driver/assignment2/main.o /home/akanksha/device_driver/assignment2/main.mod.o ;  true
